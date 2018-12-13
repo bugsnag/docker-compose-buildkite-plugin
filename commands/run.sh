@@ -116,6 +116,7 @@ fi
 if [[ "$(plugin_read_config USE_ALIASES "false")" == "true" ]] ; then
   run_params+=(--use-aliases)
 fi
+run_params+=(--use-aliases)
 
 run_params+=("$run_service")
 
